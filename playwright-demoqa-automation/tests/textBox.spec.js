@@ -8,8 +8,7 @@ test('TC_TB_01 - Verify text box form submission', async ({page})=>
     await page.fill('#userEmail', testData.email) 
     await page.click('#submit') 
     
-    const name1 = await page.locator('#name').textContent() 
-    await expect.soft(name1).toContain(testData.fullName) 
-    const mail1 = await page.locator('#email').textContent() 
-    await expect.soft(mail1).toContain(testData.email)
+    await expect(page.locator('#name')).toContainText(userData.fullName);
+    await expect(page.locator('#email')).toContainText(userData.email);
+
 });
