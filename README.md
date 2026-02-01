@@ -133,7 +133,8 @@ Priority followed across the project:
 ## 10. How to Run the Project
 
 ```bash
-npm init playwright@latest
+npm install
+npx playwright install
 npx playwright test
 ```
 
