@@ -145,7 +145,7 @@ Priority followed across the project:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/playwright-demoqa-automation.git
+   git clone https://github.com/SricharanKancharla/playwright-automation-project1.git
    cd playwright-demoqa-automation
    ```
 
