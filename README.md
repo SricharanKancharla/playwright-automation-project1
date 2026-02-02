@@ -132,11 +132,32 @@ Priority followed across the project:
 
 ## 10. How to Run the Project
 
-```bash
-npm install
-npx playwright install
-npx playwright test
-```
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/playwright-demoqa-automation.git
+   cd playwright-demoqa-automation
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Install Playwright browsers**
+   ```bash
+   npx playwright install
+   ```
 
 ---
 
