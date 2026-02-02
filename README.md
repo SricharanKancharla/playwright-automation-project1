@@ -161,6 +161,23 @@ Priority followed across the project:
 
 ---
 
+## ▶️ Running Tests
+
+### Run All Tests
+```bash
+npx playwright test
+```
+
+### Run Specific Test File
+```bash
+npx playwright test tests/textBox.spec.js
+```
+
+### Run Tests in Headed Mode
+```bash
+npx playwright test --headed
+```
+
 ## 11. Future Enhancements
 
 * Page Object Model (POM)
