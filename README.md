@@ -178,6 +178,23 @@ npx playwright test tests/textBox.spec.js
 npx playwright test --headed
 ```
 
+### Run Tests with UI Mode (Interactive)
+```bash
+npx playwright test --ui
+```
+
+### Generate Test Report
+```bash
+npx playwright show-report
+```
+
+### Debug Mode
+```bash
+npx playwright test --debug
+```
+
+---
+
 ## 11. Future Enhancements
 
 * Page Object Model (POM)
